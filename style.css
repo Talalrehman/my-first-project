@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header-text > button
+{
+    height: 40px;
+    width: 180px;
+    background-color: #f78a04;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+.header-text > button:hover
+{
+    border: 1px solid white;
+    background-color: transparent;
+    transition: .4s;
+}
+.cards
+{
+    background-image: linear-gradient(to top, rgba(0,0,0.3), rgba(0,0,0,.3)) ,url(./348x261.png);
+    height: 42vh;
+    /* width: 50vw; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition-duration: .5s;
+    display: flex;
+    align-items: flex-end;
+}
+.cards:hover
+{
+    transition: .5s;
+    background-image: url(./348x261.png);
+}
+.cards:hover .neechy{
+    transition: .2s;
+    opacity: 0;
+}
+.neechy
+{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+     justify-content: space-evenly;
+}
+.img
+{
+    transition: 1s;
+    background-color: white;
+}
+.fa-eraser,.fa-luggage-cart,.fa-text-width
+{
+    font-size: 50px;
+    transition: 1s;
+    color: #f78a04;   
+}
+.img:hover
+{
+    background-color: #f78a04;
+    transition: 1s;
+}
+.img:hover .fa-eraser
+{
+    color: white;
+    transition: 1s;
+}
+.img:hover .fa-luggage-cart
+{
+    color: white;
+    transition: 1s;    
+}
+.img:hover .fa-text-width
+{
+    color: white;
+    transition: 1s;
+}
+.card button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #f78a04;
+    transition: .3s;
+
+}
+.card button:hover
+{
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    transition: .5s;
+}
